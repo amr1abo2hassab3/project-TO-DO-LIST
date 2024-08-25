@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+}
+
+img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.myTask_page {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #123;
+}
+
+.all_element {
+    padding-top: 30px;
+    color: white;
+}
+
+.header_sec h1 {
+    font-size: 50px;
+
+}
+
+.header_tasks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.my_img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.header_tasks h1 {
+    padding: 20px;
+    background-color: #1cff00bd;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete_all {
+    background-color: #e62020ed !important;
+}
+
+.input_tasks input {
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.btn_add {
+    padding: 18px;
+    background: blueviolet;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.list_task_add {
+    background-color: rgb(0, 128, 255);
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: solid 3px white;
+}
+
+.delet {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.edit {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.edit i {
+    color: black;
+}
+
+.btn_tasks_conter {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content_task {
+    background-color: #87CEEB;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: red;
+    display: inline-block;
+}
+
+.btn_check {
+    border: none;
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    border: solid 2px blueviolet;
+}
+
+.btn_check input {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+}
